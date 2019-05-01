@@ -5,44 +5,75 @@ from key import token
 # To load new modules, copy/paste the line below, uncommented, with X filled in for the name of your file
 # from modules import X
 
+# noinspection PyUnresolvedReferences
+
 from modules import _debug
+# noinspection PyUnresolvedReferences
+
 from modules import about
-from modules import ares
-from modules import beef
-from modules import call
-from modules import chicken
-from modules import cond
-from modules import cqdx
+# noinspection PyUnresolvedReferences
+
 from modules import emoji_stats
+# noinspection PyUnresolvedReferences
+
 from modules import exec
+# noinspection PyUnresolvedReferences
+
 from modules import exit
-from modules import fivenine
-from modules import ham
-from modules import help
-from modules import htm
+# noinspection PyUnresolvedReferences
+
 from modules import info
-from modules import join_leave_msgs
-from modules import logstat
+# noinspection PyUnresolvedReferences
+
 from modules import markov
+# noinspection PyUnresolvedReferences
+
 from modules import message_log
+# noinspection PyUnresolvedReferences
+
 from modules import morse
+# noinspection PyUnresolvedReferences
+
 from modules import music
-from modules import n2yo
+# noinspection PyUnresolvedReferences
+
 from modules import nou
-from modules import ntp
-from modules import phonehand
+# noinspection PyUnresolvedReferences
+
 from modules import ping
+# noinspection PyUnresolvedReferences
+
 from modules import pingreact
-from modules import relay
-from modules import spaceman
+# noinspection PyUnresolvedReferences
+
 from modules import stats
-from modules import thiccbeef
-from modules import thiccom
-from modules import thiccseal
-from modules import time
-from modules import tubez
+
+# noinspection PyUnresolvedReferences
+
 from modules import units
-from modules import unmorse
+# noinspection PyUnresolvedReferences
+
 from modules import uwu
+# noinspection PyUnresolvedReferences
+
+from modules import help
+# noinspection PyUnresolvedReferences
+
+from modules import oof
+# noinspection PyUnresolvedReferences
+
+from modules import xkcd
+# noinspection PyUnresolvedReferences
+
+from modules import boonk
+# noinspection PyUnresolvedReferences
+
+from modules import bonk
+# noinspection PyUnresolvedReferences
+
+from modules import phonetics
+# noinspection PyUnresolvedReferences
+
+from modules import oofs
 
 client.run(token)

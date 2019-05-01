@@ -10,6 +10,6 @@ async def ping_reaction(message: discord.Message):
 	if not is_cmd:
 		if (f"<@!{client.user.id}>" in message.content) or (f"<@{client.user.id}>" in message.content):
 			try:
-				await message.add_reaction(discord.utils.find(lambda x: x.id == 476571656375238657, client.emojis))
+				await message.add_reaction(discord.utils.find(lambda x: x.id == 459861613197918230, client.emojis))
 			except Exception:  # thats ok, its fine
 				return
